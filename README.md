@@ -126,11 +126,6 @@ model = XGBClassifier(
 model.fit(X_train, y_train)
 ```
 
-### Training the Image-Based CNN Model
-```python
-# See the provided code snippet for image loading and model training
-# This is a basic CNN model that can be enhanced with transfer learning
-```
 
 ### Making Predictions
 ```python
@@ -179,10 +174,6 @@ submission_df.to_csv("submission.csv", index=False)
 - Add explainability techniques to provide feature importance for individual predictions
 - Integrate demographic risk factors for personalized risk assessment
 
-## License
-[Insert your license information here]
-
 ## Acknowledgments
 - SLICE-3D dataset providers
-- Medical professionals who provided ground truth annotations
-- Research community in medical imaging and dermatological informatics
+- UCI Datathon 2025 
